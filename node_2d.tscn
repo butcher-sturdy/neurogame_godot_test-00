@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5a11wm6knn1h"]
+
+[ext_resource type="Texture2D" uid="uid://j15g1ya21hie" path="res://icon.svg" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(227, 150)
+texture = ExtResource("1_wtcfe")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(945, 161)
+texture = ExtResource("1_wtcfe")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+self_modulate = Color(1, 0.41568628, 1, 1)
+anchors_preset = -1
+anchor_left = 0.89800006
+anchor_top = 2.5310001
+anchor_right = 6.8440003
+anchor_bottom = 4.867
+offset_left = 348.0
+offset_top = 307.0
+offset_right = 799.944
+offset_bottom = 502.96802
+text = "IF YOU SEE THIS YOU ARE GAY
+"
