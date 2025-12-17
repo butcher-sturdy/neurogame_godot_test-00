@@ -5,3 +5,33 @@
 [node name="Icon" type="Sprite2D"]
 position = Vector2(61, 63)
 texture = ExtResource("1_tr34o")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(201, 98)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(359, 260)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+position = Vector2(663, 106)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon4" type="Sprite2D" parent="."]
+position = Vector2(792, 267)
+texture = ExtResource("1_tr34o")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+self_modulate = Color(1, 0.41568628, 1, 1)
+anchors_preset = -1
+anchor_left = 0.89800006
+anchor_top = 2.5310001
+anchor_right = 6.8440003
+anchor_bottom = 4.867
+offset_left = 115.05599
+offset_top = 24.031982
+offset_right = -210.03204
+offset_bottom = -105.97601
+text = "IF YOU SEE THIS YOU ARE GAY
+"
